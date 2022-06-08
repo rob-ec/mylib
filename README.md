@@ -1,5 +1,25 @@
 # mylib
-Um projeto de exemplo feito em Django
+Um projeto de exemplo feito em Django, ReactJS & PostgreSQL
+
+## Dependências
+  - [Docker](https://www.docker.com/)
+  - [Docker Compose](https://docs.docker.com/engine/reference/commandline/compose/)
+  - [NodeJS](https://nodejs.org)
+
+## Planejamento
+### [Projeção e modelagem](docs/UML.pdf)
+  Com o pensamento de que linguagens e frameworks são apenas ferramentas para o desenvolvimento de soluções, antes de por a mão no código foram esquematizados [modelos UML](https://pt.wikipedia.org/wiki/UML) ([docs/UML.pdf](docs/UML.pdf)) para realizar o planejamento do que seria efetuado. Os modelos criados foram o Diagrama de Casos de Uso e Diagrama de Modelagem Relacional, devido ao nível de complexidade do projeto e a quantidade de programadores (um) não se viu necessidade de outros modelos. 
+
+### [Design UX/UI](https://www.figma.com/file/U1wCAIwNOQrClsagswuXdY/MyLib_?node-id=0%3A1)
+Após compreender o problema e projetar uma solução com [UML](https://pt.wikipedia.org/wiki/UML) o próximo passo para prototipação era o Design UX/UI. Como ferramenta de desenvolvimento foi escolhido o Figma, por ser extremamente completo, ter foco colaborativo e apresentar baixa complexidade de uso foi uma escolha ideal para o projeto. Uma visualização completa do que foi planejado para essa etapa do projeto pode ser encontrada clicando [aqui](https://www.figma.com/file/U1wCAIwNOQrClsagswuXdY/MyLib_?node-id=0%3A1).
+
+
+### [Execução](source)
+Como tecnologias para o projeto foram utilizados Django, ReactJS & PostgreSQL. Todas essas tecnologias foram requisitos obrigatórios, mas vale a reflexão sobre o que pode ser levado em consideração para se escolher tais ferramentas.  
+
+Considerando o mercado brasileiro de tecnologia temos um cenário onde progamadores experientes são levados para fora por empresas de outros países e novos programadores precisam ser ensinados, o que é apenas uma pequena representação da volaticidade do mercado de programação em si. Dito isso, quem contrata desenvolvedores precisa estar preparado para a saída e entrada de profissionais em um períodos inesperados, escolher Python e JavaScript como linguagens principais da empresa é escolher uma curva de aprendizado acessível para novos desenvolvedores sem perder a confiabilidade de tecnologias amplamente utilizadas mundo a fora.
+Equanto que a escolha dos Framworks Django e ReactJS, juntamente com PostgreSQL garantem escalabilidade a qualquer projeto.  
+A versatilidade e agilidade promovida por escolhas como essa fazem total diferença na produtividade dos times de desenvolvimento.
 
 ## Requisitos
 ### Estruturais
@@ -36,11 +56,6 @@ durante o cadastro ou atualização;
   - [X] Criação de um front-end desacoplado do projeto (React ou Vue);  
     (:warning: `somente por api na versão atual`)
   - [X] Conteinerização (Docker-compose);
-
-## Dependências
-  - [Docker](https://www.docker.com/)
-  - [Docker Compose](https://docs.docker.com/engine/reference/commandline/compose/)
-  - [NodeJS](https://nodejs.org)
 
 ## Setup
 Após clonar o repositório  
