@@ -2,6 +2,8 @@
 Um projeto de exemplo feito em Django
 
 ## Requisitos
+:information_source: Alguns dos requisitos foram alterados e alguns dados não solcitados foram adicionados ao projeto final.
+
 ### Estruturais
   - [X] Desenvolvimento fullstack - Django;
   - [X] Banco de dados e modelagem relacional - PostgreSQL;
