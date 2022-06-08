@@ -8,7 +8,7 @@ RUN rm -rf /var/lib/apt/lists/*
 # Set working directory for django project
 WORKDIR /app/api
 # Install python packages
-COPY requirements.txt .
+COPY ./requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 EXPOSE 8000
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
