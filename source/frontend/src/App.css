@@ -1,0 +1,43 @@
+:root {
+  --color-primary: #D05353;
+  --color-secondary: #E58F65;
+  --color-dark: #321325;
+  --color-lighter: #FBFFEC;
+  --color-white: #FFFFFF;
+
+  --color-gray: #A4A0A0;
+  --color-gray-dark: #6F6A6B;
+
+  --color-default-background: var(--color-white);
+  --color-default-text: var(--color-dark);
+
+  --spacer-default-container-padding-y: 35px;
+  --spacer-default-container-padding-x: 46px;
+  --spacer-default-container-padding: var(--spacer-default-container-padding-y) var(--spacer-default-container-padding-x);
+
+  --border-radius-default: 8px;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+  padding: var(--spacer-default-container-padding-y) 0;
+  font-size: 1.75rem;
+  font-family: 'Dancing Script', sans-serif;
+}
+
+.page {
+  background-color: var(--color-default-background);
+  color: var(--color-default-text);
+  height: 100%;
+  width: 100%;
+}
+
+.page .container {
+  background-color: var(--color-default-background);
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}

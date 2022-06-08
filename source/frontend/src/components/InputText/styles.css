@@ -1,0 +1,12 @@
+input.input-text {
+    margin: 0;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    flex-basis: 100%;
+    font-size: .875rem;
+    padding: 10px 0;
+    border: 2px solid var(--color-gray);
+    border-radius: var(--border-radius-default);
+    outline: none;
+}

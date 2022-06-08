@@ -1,0 +1,70 @@
+.menu-hidden {
+    display: none;
+}
+.menu-show {
+    display: block;
+}
+
+.menu .menu-icon {
+    color: var(--color-dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menu:hover .menu-icon {
+    color: var(--color-primary);
+}
+
+.menu .menu-modal {
+    z-index: 999;
+    left: 0;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 80px;
+    height: 100vh;
+    width: 100%;
+    background: var(--color-dark);
+    transition: all 0.3s ease;
+}
+
+.menu .menu-modal ol {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 35px 20%;
+}
+
+.menu .menu-modal .menu-modal-header {
+    display: flex;
+    justify-content: end;
+    padding-right: 10%;
+}
+
+.menu .menu-modal .menu-icon-close {
+    cursor: pointer;
+}
+
+.menu .menu-modal .menu-icon-close:hover {
+    color: var(--color-primary);
+}
+
+.menu .menu-modal ol li {
+    list-style-type: decimal;
+}
+
+.menu .menu-modal,
+.menu .menu-modal li,
+.menu .menu-modal li a {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-lighter);
+    font-size: 2rem;
+}
+
+.menu .menu-modal li a {
+    text-decoration: none;
+}
+
+.menu .menu-modal li:hover a {
+    color: var(--color-primary);
+}
