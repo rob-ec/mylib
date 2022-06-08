@@ -15,10 +15,16 @@ class Autor(models.Model):
     data_nascimento = models.DateField('data nascimento')
     data_falecimento = models.DateField('data falecimento', null=True)
 
+    def __str__(self):
+        return self.nome
+
 class Categoria(models.Model):
     imagem = models.ImageField(upload_to=upload_image_categoria)
     slug = models.CharField(max_length=255, unique=True)
     nome = models.CharField(max_length=255, unique=True)
+
+    def __str__(self):
+        return self.nome
 
 class Livro(models.Model):
     livro_virtual = models.BooleanField('livro virtual', default=False)
@@ -30,3 +36,6 @@ class Livro(models.Model):
     quantidade_paginas = models.IntegerField('quantidade paginas')
     quantidade = models.IntegerField(default=1)
     descricao = models.TextField('descricao', max_length=600)
+
+    def __str__(self):
+        return self.nome
