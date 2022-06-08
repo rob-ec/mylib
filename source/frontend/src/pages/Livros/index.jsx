@@ -6,12 +6,12 @@ import "./styles.css"
 
 import { URL_API } from "../../components/APIConfig";
 import ItemLivro from "../../components/ItemLivro";
+import Alert from "../../components/Alert";
 
 export default function Livros() {
 
     const [livros, setLivros] = useState([]);
-    const [searchName, setSearchName] = useState("");
-    const [error, setError] = useState({});
+    const [errorMessage, setErrorMessage] = useState({});
 
     useEffect(() => {
         axios
@@ -19,17 +19,18 @@ export default function Livros() {
             .then((response) => {
                 setLivros(response.data);
             })
-            .catch(error => setError(error));
+            .catch(error => setErrorMessage(error));
     }, []);
 
     function searchByNome(nome) {
-        // console.log("searching");
-        // axios
-        //     .get(URL_API + '/livros/?nome=' + nome)
-        //     .then((response) => {
-        //         setLivros(response.data);
-        //     })
-        //     .catch(error => setError(error));
+        console.log(nome);
+        axios
+            .get(URL_API + '/buscar/livros/?search=' + nome)
+            .then((response) => {
+                console.log(response.data)
+                setLivros(response.data);
+            })
+            .catch(error => setErrorMessage(error));
     }
 
 
@@ -43,6 +44,7 @@ export default function Livros() {
             />
             <section>
                 <h1 className="section-title">Livros</h1>
+                {livros.length <= 0 ? <Alert message="Nenhum livro encontrado"/> : <></>}
                 {livros.map((livro, index) => {
                     return (<ItemLivro livro={livro} key={index} />);
                 })}

@@ -1,0 +1,18 @@
+.alert {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    flex-basis: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.alert>p{
+    padding: 10px 20px;
+}
+
+.alert>p>i {
+    margin-right: 10px;
+}
