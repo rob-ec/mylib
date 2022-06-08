@@ -1,0 +1,22 @@
+.nomach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 40vh;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.nomach-404 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.nomach-4 {
+    color: var(--color-primary);
+}
+
+.nomach-0 {
+    color: var(--color-secondary);
+}
