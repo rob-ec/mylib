@@ -1,0 +1,8 @@
+.site-footer {
+    font-family: 'Inter', sans-serif;
+    font-size: .875rem;
+    padding: 40px 0;
+    text-align: center;
+    bottom: 0;
+    color: var(--color-gray);
+}

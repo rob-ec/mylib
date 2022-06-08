@@ -1,0 +1,11 @@
+.search-input-text {
+    position: relative;
+    max-width: 100%;
+}
+
+.search-input-icon {
+    top: 0.85rem;
+    right: 0.5rem;
+    position: absolute;
+    color: var(--color-gray-dark);
+}

@@ -1,0 +1,55 @@
+:root {
+    --item-livro-height: 311px;
+}
+
+.item-livro {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-livro-header {
+    position: relative;
+    margin: 0 auto;
+}
+
+.item-livro-virtual {
+    font-size: 0.875;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    padding: 5px 10px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 50px;
+}
+
+.item-livro-capa {
+    overflow: hidden;
+    background-color: var(--gray-dark);
+    border-radius: var(--border-radius-default);
+}
+
+.item-livro-capa img {
+    border-radius: 20px;
+    max-height: var(--item-livro-height);
+}
+
+.item-livro-titulo {
+    color: var(--color-primary);
+    font-weight: bold;
+    flex-basis: 100%;
+    margin-top: 8px;
+}
+
+.item-livro-data-publicacao {
+    text-align: center;
+    color: var(--color-gray);
+    font-weight: thin;
+    margin: 8px auto;
+}
