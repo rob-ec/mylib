@@ -21,11 +21,7 @@ from django.conf import settings
 
 from rest_framework import routers
 
-from livros.api.viewsets
-import AutoresViewSet
-import CategoriasViewSet
-import LivrosViewSet
-import LivrosSearchByNomeViewSet
+from livros.api.viewsets import AutoresViewSet, CategoriasViewSet, LivrosViewSet, LivrosSearchByNomeViewSet
 # import LivroViewSet
 
 route = routers.DefaultRouter()
