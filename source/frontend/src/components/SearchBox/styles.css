@@ -1,0 +1,7 @@
+.search-box {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    max-width: 100%;
+}
