@@ -1,6 +1,48 @@
 # mylib
 Um projeto de exemplo feito em Django
 
+## Requisitos
+### Estruturais
+  - [X] Desenvolvimento fullstack - Django;
+  - [X] Banco de dados e modelagem relacional - PostgreSQL;
+  - [X] Versionamento de código - Git;
+
+### Dados
+  - [X] Cadastro de Livros contendo os seguintes campos:  
+    (:warning: somente api na versão atual):
+    - [X] Nome;
+    - [X] Categoria;
+    - [X] Capa do livro (imagem);
+    - [X] Autor;
+    - [X] Data de publicação;
+    - [X] Quantidade de páginas;
+  - [X] Listar os livros cadastrados  
+    (:white_check_mark:);
+  - [X] Editar um livro existente  
+    (:warning: somente api na versão atual);
+  - [X] Deletar um livro  
+    (:warning: somente api na versão atual);
+
+### Regras
+  - [X] Não é permitido adicionar livros com o mesmo nome;
+  - [ ] A Data de publicação dos livros deve está compreendida entre os anos de 1500 á 2022;
+  - [X] O usuário precisa ser alertado através de notificações caso esteja infringindo alguma regra
+durante o cadastro ou atualização;  
+(:warning: poucas mensagens previstas na versão atual)
+
+### Outras
+  - [X] Listar livros por categoria;  
+    (:warning: somente api na versão atual)
+  - [ ] Listar livros por data de publicação;  
+  - [X] Criação de um front-end desacoplado do projeto (React ou Vue);
+    (:warning: poucas funcionalidades na versão atual)
+  - [X] Conteinerização (Docker-compose);
+
+## Dependências
+  - [Docker](https://www.docker.com/)
+  - [Docker Compose](https://docs.docker.com/engine/reference/commandline/compose/)
+  - [NodeJS](https://nodejs.org)
+
 ## Setup
 Após clonar o repositório  
 
