@@ -1,3 +1,13 @@
+<h3 align="center">
+  <img src="source/frontend/public/logo192.png" width="80px" alt="ML"/><br /><br />
+  <p>
+    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="ReactJS"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  </p>
+</h3>
+
+
 # mylib
 Um projeto de exemplo feito em Django, ReactJS & PostgreSQL
 
