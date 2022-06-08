@@ -22,6 +22,8 @@ Equanto que a escolha dos Framworks Django e ReactJS, juntamente com PostgreSQL 
 A versatilidade e agilidade promovida por escolhas como essa fazem total diferença na produtividade dos times de desenvolvimento.
 
 ## Requisitos
+:information_source: Alguns dos requisitos foram alterados e alguns dados não solcitados foram adicionados ao projeto final.
+
 ### Estruturais
   - [X] Desenvolvimento fullstack - Django;
   - [X] Banco de dados e modelagem relacional - PostgreSQL;
