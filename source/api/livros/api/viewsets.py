@@ -19,10 +19,3 @@ class LivrosSearchByNomeViewSet(viewsets.ModelViewSet):
     search_fields = ['nome']
     filter_backends = (filters.SearchFilter,)
     queryset = models.Livro.objects.all()
-
-# class LivroViewSet(viewsets.ModelViewSet):
-#     serializer_class = serializers.LivrosSerializer
-#     req = self.request
-#     id = req.query_params.get('id')
-
-#     queryset = models.Livro.objects.filter(pk=id)

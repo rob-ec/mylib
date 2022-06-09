@@ -22,12 +22,10 @@ export default function Livros() {
             .catch(error => setErrorMessage(error));
     }, []);
 
-    function searchByNome(nome) {
-        console.log(nome);
+    function searchByNome(nome = "") {
         axios
-            .get(URL_API + '/buscar/livros/?search=' + nome)
+            .get(URL_API + '/buscar/livros/?search=' + encodeURI(nome))
             .then((response) => {
-                console.log(response.data)
                 setLivros(response.data);
             })
             .catch(error => setErrorMessage(error));

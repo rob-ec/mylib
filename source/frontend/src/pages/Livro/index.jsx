@@ -16,6 +16,7 @@ export default function Livro(props) {
             .get(URL_API + '/buscar/livro/?id=' + id)
             .then((response) => {
                 setLivro(response.data);
+                console.log(livro)
             })
             .catch(error => setErrorMessage(error));
     }, []);

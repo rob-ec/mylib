@@ -22,7 +22,6 @@ from django.conf import settings
 from rest_framework import routers
 
 from livros.api.viewsets import AutoresViewSet, CategoriasViewSet, LivrosViewSet, LivrosSearchByNomeViewSet
-# import LivroViewSet
 
 route = routers.DefaultRouter()
 
@@ -31,9 +30,6 @@ route.register(r'categorias', CategoriasViewSet, basename='Categorias')
 route.register('livros', LivrosViewSet, basename='Livros')
 route.register('buscar/livros', LivrosSearchByNomeViewSet,
                basename='Livros por nome')
-# route.register('buscar/livro', LivroViewSet,
-#                basename='Livro')
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(route.urls)),
