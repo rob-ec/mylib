@@ -20,8 +20,8 @@ Um projeto de exemplo feito em Django, ReactJS & PostgreSQL
 :warning: _O design da interface foi pensado para o paradigma mobile-first, portanto, nas versões iniciais do sistema será mais adequado testá-lo em telas menores_
 
 <p align="center">
-  <img src="demo/Home.png" width="350px" />
-  <img src="demo/Home.gif" width="350px" />
+  <img src="demo/Home.png" width="250" height="390" />
+  <img src="demo/Home.gif" width="250" height="390" />
 </p>
 
 ## Planejamento
