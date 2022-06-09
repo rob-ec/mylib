@@ -15,7 +15,7 @@ export default function Livros() {
 
     useEffect(() => {
         axios
-            .get(URL_API + '/livros')
+            .get(URL_API + '/livros/')
             .then((response) => {
                 setLivros(response.data);
             })

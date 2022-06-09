@@ -28,9 +28,9 @@ export default function Menu() {
                     <ol>
                         <li><Link to="/" onClick={hiddeMenu}>Início</Link></li>
                         <li><Link to="/livros" onClick={hiddeMenu}>Livros</Link></li>
-                        <li><Link to="/autores" onClick={hiddeMenu}>Autores</Link></li>
+                        {/* <li><Link to="/autores" onClick={hiddeMenu}>Autores</Link></li>
                         <li><Link to="/categorias" onClick={hiddeMenu}>Categorias</Link></li>
-                        <li><Link to="/sobre" onClick={hiddeMenu}>Sobre</Link></li>
+                        <li><Link to="/sobre" onClick={hiddeMenu}>Sobre</Link></li> */}
                     </ol>
                 </div>
             </div>
