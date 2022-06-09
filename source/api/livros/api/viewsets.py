@@ -7,7 +7,7 @@ class AutoresViewSet(viewsets.ModelViewSet):
     queryset = models.Autor.objects.all()
 
 class CategoriasViewSet(viewsets.ModelViewSet):
-    serializer_class = serializers.ClategoriasSerializer
+    serializer_class = serializers.CategoriasSerializer
     queryset = models.Categoria.objects.all()
 
 class LivrosViewSet(viewsets.ModelViewSet):

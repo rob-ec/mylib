@@ -6,7 +6,7 @@ class AutoresSerializer(serializers.ModelSerializer):
         model = models.Autor
         fields = '__all__'
 
-class ClategoriasSerializer(serializers.ModelSerializer):
+class CategoriasSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Categoria
         fields = '__all__'
