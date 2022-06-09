@@ -16,6 +16,14 @@ Um projeto de exemplo feito em Django, ReactJS & PostgreSQL
   - [Docker Compose](https://docs.docker.com/engine/reference/commandline/compose/)
   - [NodeJS](https://nodejs.org)
 
+## Demo
+:warning: _O design da interface foi pensado para o paradigma mobile-first, portanto, nas versões iniciais do sistema será mais adequado testá-lo em telas menores_
+
+<p align="center">
+  <img src="demo/Home.png" width="350px" />
+  <img src="demo/Home.gif" width="350px" />
+</p>
+
 ## Planejamento
 ### [Projeção e modelagem](docs/UML.pdf)
   Com o pensamento de que linguagens e frameworks são apenas ferramentas para o desenvolvimento de soluções, antes de por a mão no código foram esquematizados [modelos UML](https://pt.wikipedia.org/wiki/UML) ([docs/UML.pdf](docs/UML.pdf)) para realizar o planejamento do que seria efetuado. Os modelos criados foram o Diagrama de Casos de Uso e Diagrama de Modelagem Relacional, devido ao nível de complexidade do projeto e a quantidade de programadores (um) não se viu necessidade de outros modelos. 
